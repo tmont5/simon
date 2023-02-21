@@ -68,3 +68,38 @@ footer a{
     max-height: min(80vmin, 1000px);
 }
 
+.button-container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.button-top-right{
+    border-radius: 100%  0 0 0;
+    margin: 20px 0 0 20px;
+    background-color: green;
+    border: thick solid rgb(36, 53, 0);
+}
+
+.button-top-left{
+    border-radius: 0 100% 0 0;
+    margin: 20px 20px 0 0;
+    background-color: red;
+    border: thick solid rgb(53, 0, 0);
+}
+
+.button-bottom-right{
+    border-radius: 0 0 0 100%;
+    margin: 0 0 20px 20px;
+    background-color: blue;
+    border: thick solid rgb(0, 0, 53);
+}
+
+.button-bottom-left{
+    border-radius: 0 0 100% 0;
+    margin: 0 20px 20px 0;
+    background-color: yellow;
+    border: thick solid rgb(53, 53, 0);
+}
